@@ -1,4 +1,4 @@
-__config() -> {'scope' -> 'global'};
+__config() -> {'scope' -> 'global', 'command_permission' -> 'all'};
 __command() -> 'Use the command "third_person player_summon" to summon a fake player to control.';
 player_summon() -> then(
 fake_players = 0,
